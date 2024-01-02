@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #282A35;
+            margin: 0px;
+        }
+
+        .header1-parent {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: white;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+
+
+        }
+
+
+        .flex-container>.item {
+            width: 50px;
+            height: 15px;
+            background-color: #D9D9D9;
+
+            margin: 10px;
+
+        }
+
+        .flex-container>.logo-part {
+            width: 20px;
+            height: 20px;
+            background-color: #D9D9D9;
+
+            margin: 10px;
+
+        }
+
+
+        .flex-container2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+
+
+        }
+
+
+        .flex-container2>.item {
+            width: 50px;
+            height: 20px;
+            background-color: #D9D9D9;
+
+            border-radius: 10px;
+            margin: 10px;
+            margin-right: 4px;
+            margin-left: 2px;
+
+        }
+
+        .flex-center {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 10px;
+
+        }
+
+
+        .flex-center>div {
+
+            margin-right: 24px;
+
+            width: 50px;
+            height: 15px;
+
+            background-color: #D9D9D9;
+        }
+
+        .overralparent {
+
+            width: 400px;
+            height: 250px;
+            padding: 20px;
+            padding-top: 5opx;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 50px;
+            
+            
+            
+        }
+
+        .box1 {
+            width: 400px;
+            height: 50px;
+            background-color: #D9D9D9;
+            
+
+        }
+
+        .box2 {
+            display: flex;
+            flex-direction: column ;
+            height: 60px;
+        
+            margin-top: 20px;
+            align-items: center;
+        
+            
+        }
+
+        .child1-box2 {
+            display: flex;
+            width: 200px;
+            height: 10px;
+            background-color: #D9D9D9;
+            
+            
+            margin-bottom: 10px;
+        }
+
+        .child2-box2 {
+
+            width: 150px;
+            height: 10px;
+            background-color: #D9D9D9;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header1-parent">
+        <div class="flex-container">
+            <div class="logo-part"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+
+
+        <div class="flex-container2">
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="flex-center">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+
+    </div>
+
+    <div class="overralparent">
+        <div class="box1"> </div>
+
+        <div class="box2">
+            <div class="child1-box2"></div>
+            <div class="child2-box2"></div>
+        </div>
+
+    </div>
+
+    
+
+</body>
+
+</html>
